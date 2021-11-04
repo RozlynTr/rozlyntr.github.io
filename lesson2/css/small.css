@@ -57,7 +57,6 @@ h3,
 h4 {
   display: block;
   font-family: 'times new roman', serif;
-  color: white;
   text-align: center;
   padding: 0.25em 0.25em;
   margin: 0;
@@ -66,16 +65,19 @@ h4 {
 h1 {
   font-size: 3em;
   text-align: center;
+  color: white;
 }
 
 h2 {
   font-size: 2em;
   text-align: center;
+  color: white;
 }
 
 h3 {
   font-size: 1.25em;
   background-color: #38A692;
+  color: white;
 }
 
 h4 {
