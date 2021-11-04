@@ -13,7 +13,7 @@ body {
 
 header,
 footer {
-  background-color: #38A692;
+  background-color: #D99282;
   padding: 0.25em;
 }
 
@@ -25,7 +25,7 @@ main {
 
 main section {
   margin: 0.5em;
-  border: 2px solid #38A692;
+  border: 2px solid #D99282;
   border-radius: 5px;
 }
 
@@ -77,13 +77,13 @@ h2 {
 
 h3 {
   font-size: 1.25em;
-  background-color: #38A692;
+  background-color: #D99282;
   color: white;
 }
 
 h4 {
   fonts-size: 1.55em;
-  color: #38A692;
+  color: #D99282;
 }
 
 footer p {
