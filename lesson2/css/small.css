@@ -53,8 +53,7 @@ p {
 
 h1,
 h2,
-h3,
-h4{
+h3,{
   display: block;
   font-family: 'times new roman', serif;
   color: white;
@@ -79,6 +78,7 @@ h3 {
 }
 
 h4 {
+  display: block; 
   fontsize: 1em;
   text-align: left;
   font-family: 'times new roman', serif;
