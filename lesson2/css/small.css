@@ -47,13 +47,14 @@ a {
 p {
   text-align: left;
   padding: 0 0.75em;
-  font-size: 0.5em;
+  font-size: 0.8em;
   font-family: 'mmontserrat', serif;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4{
   display: block;
   font-family: 'times new roman', serif;
   color: white;
@@ -73,8 +74,13 @@ h2 {
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1.25em;
   background-color: #38A692;
+}
+
+h4 {
+  fontsize: 1em;
+  text-align: left;
 }
 
 footer p {
