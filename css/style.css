@@ -4,7 +4,7 @@ header, body, footer{
 }
 
 header {
-  font-family: 'Roboto Slab', 'Open Sans', sans-serif;
+  font-family: 'times new roman', 'Open Sans', sans-serif;
   font-size: larger;
   font-weight: bolder;
   background-color: lightcoral;
@@ -25,11 +25,11 @@ header img {
 }
 
 p {
-  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-family: 'times new roman', 'Open Sans', sans-serif;
 }
 
 h2 {
-  font-family: 'Roboto Slab', 'Open Sans', sans-serif;
+  font-family: 'times new roman', 'Open Sans', sans-serif;
   font-size: large;
   font-weight: bold;
   margin-bottom: 0px;
@@ -37,7 +37,7 @@ h2 {
 
 li {
   font-size: medium;
-  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-family: 'times new roman', 'Open Sans', sans-serif;
 }
 
 li a:link {
