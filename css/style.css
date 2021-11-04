@@ -7,7 +7,7 @@ header {
   font-family: 'Roboto Slab', 'Open Sans', sans-serif;
   font-size: larger;
   font-weight: bolder;
-  background-color: darkcyan;
+  background-color: lightcoral;
   padding: 10px;
   text-align: center;
   border-radius: 5px;
@@ -56,7 +56,7 @@ li a:visited {
 
 footer {
   display: block;
-  background-color: darkcyan;
+  background-color: lightcoral;
   padding: 10px;
   border-radius: 5px;
   align-items: center;
