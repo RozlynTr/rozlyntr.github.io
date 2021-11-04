@@ -42,6 +42,7 @@ img {
 a {
   text-align: center;
   padding: 0.5em;
+  font-size: 1em;
 }
 
 p {
@@ -81,7 +82,7 @@ h3 {
 }
 
 h4 {
-  fonts-size: 1em;
+  fonts-size: 1.25em;
   color: #38A692;
 }
 
