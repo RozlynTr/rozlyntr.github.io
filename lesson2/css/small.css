@@ -47,7 +47,7 @@ a {
 p {
   text-align: left;
   padding: 0 0.75em;
-  font-size: 0.8em;
+  font-size: 1em;
   font-family: 'mmontserrat', serif;
 }
 
@@ -81,6 +81,7 @@ h3 {
 h4 {
   fontsize: 1em;
   text-align: left;
+  font-family: 'times new roman', serif;
 }
 
 footer p {
