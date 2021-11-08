@@ -1,5 +1,5 @@
 body {
-  background-color: #542D09;
+  background-color: #fcb31c;
   font-family: 'Roboto', sans-serif;
   max-width: 800px;
   font-size: 16px;
@@ -12,7 +12,7 @@ header,
 footer,
 main,
 nav {
-  background-color: #EDB27B;
+  background-color: white;
   font-size: 0.95rem;
 }
 
