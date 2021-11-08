@@ -119,15 +119,9 @@ figure {
 }
 
 .colors figure img {
-  width: 100px;
+  width: 300px;
   height: auto;
 }
-
-.colors figure figcaption {
-  justify-self: center;
-  text-align: center;
-}
-
 .color-p {
   padding-bottom: 0.5rem;
 }
