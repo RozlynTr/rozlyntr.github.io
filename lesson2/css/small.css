@@ -1,6 +1,6 @@
 body {
   background-color: #fcb31c;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', serif;
   max-width: 800px;
   font-size: 16px;
   color: #404040;
@@ -39,7 +39,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .main-headline {
@@ -83,14 +83,14 @@ nav ul {
 nav ul li a {
   display: block;
   background-color: #404040;
-  color: #EDB27B;
+  color: white;
   text-align: center;
   padding: 1rem;
   text-decoration: none;
 }
 
 nav a:hover {
-  background-color: #E8D5C3;
+  background-color: #fcb31c;
   color: #404040;
 }
 
