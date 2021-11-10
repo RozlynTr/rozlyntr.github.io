@@ -69,8 +69,7 @@ main p {
 }
 
 main img {
-  width: 800px;
-  border: 1px solid #404040;
+  max-width: 800px;
 }
 
 nav ul {
@@ -111,17 +110,6 @@ footer p {
   text-align: center;
 }
 
-figure {
-  width: 800px;
-  height: auto;
-  margin: auto;
-  padding: 0.5em;
-}
-
-.colors figure img {
-  width: 800px;
-  height: auto;
-}
 .color-p {
   padding-bottom: 0.5rem;
 }
