@@ -126,7 +126,7 @@ h3 {
   color: #1E3F59;
 }
 
-.preston img, article img {
+.hero img, article img {
   max-width: 100%;
   height: auto;
   padding: 0.25rem 0;
@@ -162,7 +162,7 @@ h3 {
 }
 
 .forecast {
-  display: none;
+  grid-column: 1 / span 2;
 }
 
 article p {
