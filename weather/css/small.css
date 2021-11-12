@@ -126,7 +126,7 @@ h3 {
   color: #1E3F59;
 }
 
-.hero img, article img {
+.preston img, article img, forecast img {
   max-width: 100%;
   height: auto;
   padding: 0.25rem 0;
