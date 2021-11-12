@@ -79,14 +79,14 @@ nav ul {
 nav ul li a {
   display: block;
   background-color: #404040;
-  color: #EDB27B;
+  color: #F5AD42;
   text-align: center;
   padding: 1rem;
   text-decoration: none;
 }
 
 nav a:hover {
-  background-color: #E8D5C3;
+  background-color: #F5AD42;
   color: #404040;
 }
 
@@ -101,6 +101,7 @@ h3,
 h4 {
   font-family: 'Playfair Display', serif;
   margin: 0;
+  color: white;
 }
 
 h1 {
@@ -121,7 +122,7 @@ h3 {
   padding: 0.1rem 0;
 }
 
-.hero img, article img {
+.preston img, article img {
   max-width: 100%;
   height: auto;
   padding: 0.25rem 0;
