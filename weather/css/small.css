@@ -80,7 +80,7 @@ nav ul {
 nav ul li a {
   display: block;
   background-color: #1E3F59;
-  color: white;
+  color: #1E3F59;
   text-align: center;
   padding: 1rem;
   text-decoration: none;
@@ -102,20 +102,20 @@ h3,
 h4 {
   font-family: 'Playfair Display', serif;
   margin: 0;
-  color: white;
+  color: #1E3F59;
 }
 
 h1 {
   font-size: 1.5rem;
   padding: 0.25rem 0;
-  color: white;
+  color: #1E3F59;
 }
 
 h2 {
   font-size: 1.25rem;
   padding-bottom: 0.5rem;
   text-align: center;
-  color: white;
+  color: #1E3F59;
 }
 
 h3 {
@@ -123,7 +123,7 @@ h3 {
   margin: 0;
   text-align: center;
   padding: 0.1rem 0;
-  color: white;
+  color: #1E3F59;
 }
 
 .preston img, article img {
@@ -141,7 +141,7 @@ h3 {
   grid-template-columns: 1fr 1fr;
   gap: 0 0.25rem;
   width: 60%;
-  color: white;
+  color: #1E3F59;
 }
 
 .left {
