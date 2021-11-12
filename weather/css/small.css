@@ -12,8 +12,9 @@ header,
 footer,
 main,
 nav {
-  background-color: #1E3F59;
+  background-color: white;
   font-size: 0.95rem;
+  color: white;
 }
 
 header {
@@ -78,7 +79,7 @@ nav ul {
 
 nav ul li a {
   display: block;
-  background-color: #404040;
+  background-color: #1E3F59;
   color: #F5AD42;
   text-align: center;
   padding: 1rem;
@@ -87,7 +88,7 @@ nav ul li a {
 
 nav a:hover {
   background-color: #F5AD42;
-  color: #404040;
+  color: #1E3F59;
 }
 
 main {
@@ -107,12 +108,14 @@ h4 {
 h1 {
   font-size: 1.5rem;
   padding: 0.25rem 0;
+  color: white;
 }
 
 h2 {
   font-size: 1.25rem;
   padding-bottom: 0.5rem;
   text-align: center;
+  color: white;
 }
 
 h3 {
@@ -120,6 +123,7 @@ h3 {
   margin: 0;
   text-align: center;
   padding: 0.1rem 0;
+  color: white;
 }
 
 .preston img, article img {
