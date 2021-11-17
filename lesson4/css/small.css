@@ -73,15 +73,16 @@ nav ul {
 
 nav ul li a {
   display: block;
-  color: #1E3F59;
+  background-color: #1E3F59;
+  color: white;
   text-align: center;
   padding: 1rem;
   text-decoration: none;
 }
 
 nav a:hover {
-  background-color: #E8D5C3;
-  color: #404040;
+  background-color: #F5AD42;
+  color: #1E3F59;
 }
 
 .active {
@@ -136,7 +137,7 @@ picture img, article img {
   width: 100%;
   height: auto;
   margin: 0;
-  box-shadow:0 0 0.5rem 0.25rem #404040;
+  box-shadow:0 0 0.1rem 0.1rem #404040;
   border-radius: 5px;
 }
 
@@ -252,7 +253,10 @@ footer p, footer div, footer a, footer span {
 }
 
 .map, .zoomed {
-  display: none;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 5px;
 }
 
 .social {
