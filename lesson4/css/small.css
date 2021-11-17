@@ -198,23 +198,24 @@ picture img, article img {
 
 .flex-col {
   flex: 1 1 auto;
-  background-color: #E8D5C3;
+  background-color: #404040;
   text-align: center;
-  border-right: 1px solid #404040;
-  border-bottom: 1px solid #404040;
+  border-right: 1px solid #F5AD42;
+  border-bottom: 1px solid #F5AD42;
 }
 
 .col-head, .condition {
   display: block;
-  background-color: #E8D5C3;
+  background-color: #404040;
   text-align: center;
   padding: 0.25rem 0;
   font-size: 0.7rem;
+  color: white;
 }
 
 .col-head {
-  border-top: 1px solid #404040;
-  border-bottom: 1px solid #404040;
+  border-top: 1px solid #F5AD42;
+  border-bottom: 1px solid #F5AD42;
 }
  
 .flex img {
