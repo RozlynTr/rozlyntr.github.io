@@ -253,12 +253,12 @@ footer p, footer div, footer a, footer span {
   margin: 0;
 }
 
-.map, .zoomed {
+/*.map, .zoomed {
   width: 100%;
   height: auto;
   margin: 0;
   border-radius: 5px;
-}
+}*/
 
 .social {
   text-align: center;
