@@ -59,7 +59,6 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  text-decoration: none;
 }
 
 .nav-list li:first-child {
@@ -80,6 +79,7 @@ nav ul li a {
   color: white;
   text-align: center;
   padding: 1rem;
+  text-decoration: none;
 }
 
 nav a:hover {
