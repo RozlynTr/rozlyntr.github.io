@@ -135,7 +135,7 @@ h4 {
   position: relative;
 }
 
-picture img, article img {
+.heroimg img, .food img{
   width: 100%;
   height: auto;
   margin: 0;
