@@ -9,15 +9,19 @@
   <meta name="description"
     content="Southeast Idaho News and Weather provides reliable and excellent coverage of the Preston, Soda Springs, and Fish Haven region.">
   <title>SEI News and Weather | Preston</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500"
-    rel="stylesheet">
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link href="css/small.css" rel="stylesheet">
-  <link href="css/medium.css" rel="stylesheet">
-  <link href="css/large.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=mMntserrat&display=swap"
+    rel="stylesheet" media="all">
+  <link rel="stylesheet" href="../css/normalize.css" media="all">
+  <link href="css/small.css" rel="stylesheet" media="all">
+  <link href="css/medium.css" rel="stylesheet" media="all">
+  <link href="css/large.css" rel="stylesheet" media="all">
   <script defer src="https://rozlyntr.github.io/lesson4/js/button.js"></script>
   <script defer src="https://rozlyntr.github.io/lesson4/js/date.js"></script>
   <script defer src="https://rozlyntr.github.io/lesson4/js/pancakes.js"></script>
+  <script defer src="js/windchill.js"></script>
+
 </head>
 
 <body>
@@ -36,7 +40,7 @@
     <ul class="nav-list">
       <li><a class="menu" href="#">Menu</a></li>
       <li><a href="#">Home</a></li>
-      <li ><a href="#" class="active">Preston</a></li>
+      <li ><a href="https://rozlyntr.github.io/lesson4/preston4.html" class="active">Preston</a></li>
       <li><a href="#">Soda Springs</a></li>
       <li><a href="#">Fish Haven</a></li>
       <li><a href="#">Storm Center</a></li>
@@ -46,8 +50,12 @@
   <main>
     <h2>Preston, Idaho</h2>
     <div class="herocontainer">
-      <picture>
-        <img src="https://rozlyntr.github.io/lesson4/images/prestonimg.jpg" alt="A photo of beautiful eastern Idaho fields and homes.">
+      <picture class="heroimg">
+        <source media="(max-width: 510px)" srcset="https://rozlyntr.github.io/lesson4/images/prestonimg.jpg">
+        <source media="(max-width: 939px)" srcset="https://rozlyntr.github.io/lesson4/images/prestonimg.jpg">
+        <source media="(min-width: 940px)" srcset="https://rozlyntr.github.io/lesson4/images/prestonimg.jpg">
+        <img src="https://rozlyntr.github.io/lesson4/images/prestonimg.jpg" 
+             alt="A photo of beautiful eastern Idaho fields and homes.">
       </picture>
       <section class="weather">
         <h3>Weather Summary</h3>
@@ -94,6 +102,10 @@
     <article>
       <h3 class="park">Annual Preston Community Park</h3>
       <h3 class="tdf">Thanksgiving Food Drive</h3>
+      <picture class="food">
+        <source media="(max-width: 510px)" srcset="https://rozlyntr.github.io/lesson4/images/food-drive.jpg">
+        <source media="(max-width: 939px)" srcset="https://rozlyntr.github.io/lesson4/images/food-drive.jpg">
+        <source media="(max-width: 940px)" srcset="https://rozlyntr.github.io/lesson4/images/food-drive.jpg">
       <img src="https://rozlyntr.github.io/lesson4/images/food-drive.jpg"alt="Photo of people volunteering at a food drive.">
       <p>The Annual Preston Community Park Thanksgiving Food Drive will be held on Saturday, November 20<sup>th</sup> starting at 11:00 am. 
         Your generosity is needed now more than ever! To help families have a thanksgiving meal this season, we are asking for donations of
@@ -120,6 +132,10 @@
       
     </section>
     <div class="map">
+      <picture class="map">
+      <source media="(max-width: 510px)" srcset="https://rozlyntr.github.io/lesson4/images/map.png">
+      <source media="(max-width: 939px)" srcset="https://rozlyntr.github.io/lesson4/images/map.png">
+      <source media="(min-width: 940px)" srcset="https://rozlyntr.github.io/lesson4/images/map.png">
       <img src="https://rozlyntr.github.io/lesson4/images/map.png" alt="A map displaying the location of Preston, Soda Springs and Fish Haven in southeast Idaho.">
     </div>
     <div class="social">
