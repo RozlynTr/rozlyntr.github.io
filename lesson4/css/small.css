@@ -26,9 +26,10 @@ header {
   display: none;
   margin: 0;
   padding: 0.25rem 0;
-  background-color: yellow;
+  background-color: #1E3F59;
   text-align: center;
   font-size: 0.95rem;
+  color: white;
 }
 
 header img {
