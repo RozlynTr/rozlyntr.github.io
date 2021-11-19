@@ -67,7 +67,7 @@
     font-size: 0.9rem;
   }
 
-  article img {
+  .food img {
     float: left;
     width: 50%;
     margin: 0 1rem 0.5rem 0;
@@ -99,14 +99,6 @@
     grid-row: 2 / 3;
     align-self: center;
     height: 30px; 
-  }
-
-  .zoomed {
-    display: block;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2; 
-    padding: 0; 
-    
   }
 
   .map img {
