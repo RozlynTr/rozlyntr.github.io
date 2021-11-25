@@ -31,6 +31,10 @@ header {
   font-size: 0.95rem;
 }
 
+header img {
+  width: 80px;
+}
+
 picture .icon {
   width: 80px;
 }
