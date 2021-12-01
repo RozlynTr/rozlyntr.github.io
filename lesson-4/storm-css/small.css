@@ -252,8 +252,11 @@ footer span {
   margin: 0;
 }
 
-.map img {
-  display: none;
+.map img{
+  width: 80%;
+  height: auto;
+  margin: 0;
+  border-radius: 5px;
 }
 
 .social {
