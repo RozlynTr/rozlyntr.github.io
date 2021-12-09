@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Rozlyn Vaughn">
+  <meta name="description"
+    content="The page provides news and weather for Soda Springs. Freelance writers in the community provide news articles about local events. 
+             The weather data is compiled and provided by a local meteorologist.">
+  <title>SEI News | Soda Springs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500"
+    rel="stylesheet" media="all">
+  <link rel="stylesheet" href="css/normalize.css" media="all">
+  <link href="css/small.css" rel="stylesheet" media="all">
+  <link href="css/medium.css" rel="stylesheet" media="all">
+  <link href="css/large.css" rel="stylesheet" media="all">
+  <link rel="shortcut icon" href="red-favicon.ico">
+  <script defer src="js/button.js"></script>
+  <script defer src="js/date.js"></script>
+  <script defer src="js/weather.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="https://rozlyntr.github.io/lesson2/weatherlogo.jpg" alt="An image of the SE Idaho News Logo.">
+    <section class="headings">
+      <h1>Southeast Idaho News & Weather</h1>
+      <div class="motto">Reliable News for the Tri-County Area</div>
+    </section>
+  </header>
+  <div class="herocontainer">
+    <picture class="heroimg">
+      <source media="(max-width: 510px)" srcset="https://rozlyntr.github.io/lesson-06/images/sshero750x352.webp">
+      <source media="(max-width: 939px)" srcset="https://rozlyntr.github.io/lesson-06/images/sshero845x396.webp">
+      <source media="(min-width: 940px)" srcset="https://rozlyntr.github.io/lesson-06/images/sshero960x450.webp">
+      <img src="https://rozlyntr.github.io/lesson-06/images/sshero960x450.webp" alt="A mountain meadow with tall, snow-capped mountains in the background.">
+    </picture>
+    <section class="weather">
+      <h2>Weather Summary</h2>
+      <p class="left">Currently:</p>
+      <p class="right"><span class="cloudiness"></span></p>
+      <p class="left">Current temp:</p>
+      <p class="right"><span class="t"></span>°F</p>
+      <p class="left">Wind Chill:</p>
+      <p class="right"><span class="f"></span></p>
+      <p class="left">Humidity:</p>
+      <p class="right"><span class="humidity"></span></p>
+      <p class="left">Wind Speed:</p>
+      <p class="right"><span class="s"></span> MPH</p>
+    </section>
+  </div>
+  <nav>
+    <ul class="nav-list">
+      <li><a class="menu" href="#">Menu</a></li>
+      <li><a href="https://rozlyntr.github.io/lesson-5/home.html">Home</a></li>
+      <li><a href="https://rozlyntr.github.io/lesson4/preston4.html">Preston</a></li>
+      <li><a href="https://rozlyntr.github.io/lesson-06/sodasprings.html" class="active">Soda Springs</a></li>
+      <li><a href="https://rozlyntr.github.io/lesson-06/fishhaven.html">Fish Haven</a></li>
+      <li><a href="https://rozlyntr.github.io/lesson-4/stormcenter.html">Storm Center</a></li>
+      <li><a href="https://rozlyntr.github.io/lesson-4/gallery-7.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Soda Springs, Idaho</h2>
+    <section class="events">
+      <h3>
+        Upcoming Events
+      </h3>
+      <div id="events"></div>
+    </section>
+    <h3 class="forecast">Five Day Forecast</h3>
+    <div class="flex">
+      <div class="flex-col">
+        <span class="col-head" id="day1"></span>
+        <img src="#" alt="#" id="icon1">
+        <span class="condition" id="temp1"></span>
+      </div>
+      <div class="flex-col">
+        <span class="col-head" id="day2"></span>
+        <img src="#" alt="#" id="icon2">
+        <span class="condition" id="temp2"></span>
+      </div>
+      <div class="flex-col">
+        <span class="col-head" id="day3"></span>
+        <img src="#" alt="#" id="icon3">
+        <span class="condition" id="temp3"></span>
+      </div>
+      <div class="flex-col">
+        <span class="col-head" id="day4"></span>
+        <img src="#" alt="#" id="icon4">
+        <span class="condition" id="temp4"></span>
+      </div>
+      <div class="flex-col">
+        <span class="col-head" id="day5"></span>
+        <img src="#" alt="#" id="icon5">
+        <span class="condition" id="temp5"></span>
+      </div>
+    </div>
+    
+    <article>
+      <h3 class="tot">Soda Days Festival On Main Street</h3>
+      <picture class="kids">
+        <source media="(max-width: 510px)" srcset="https://rozlyntr.github.io/lesson-06/images/ssgeyser380x439.webp">
+        <source media="(max-width: 939px)" srcset="https://rozlyntr.github.io/lesson-06/images/ssgeyser400x462.webp">
+        <source media="(min-width: 940px)" srcset="https://rozlyntr.github.io/lesson-06/images/ssgeyser450x520.webp">
+        <img src="https://rozlyntr.github.io/lesson-06/images/ssgeyser450x520.webp" alt="Photo of the famous Soda Springs geyser.">
+      </picture>
+      <p class="articlepara">Soda Days Festival occurs during the second week of November every year. The festival celebrates the discovery
+        of the Soda Springs Geyser on November 28, 1937. In late November of 1937, several local business men had an
+        idea to use a hot spring for a bath house. They began exploring for hot springs utilizing a drilling rig. The
+        drill bit hit a pocket of carbon dioxide which caused water to shoot 40 feet into the air. They promptly removed
+        the 3500 pound drill bit. By removing the bit, the full release of pressure caused the geyser to increase to 70
+        feet tall. It has been reported that a few weeks later the United States Secretary of the Interior requested
+        that the town turn off the geyser. He claimed it was causing the Old Faithful geyser to be off schedule. The
+        City of Soda Springs complied with the request and now the geyser is controlled to go off every hour on the
+        hour.
+      </p>
+      <p class="articlepara">
+        The Soda Days Festival attracts people from the whole region even people from out of state. Main Street is
+        blocked at both ends and vendors align in the street. All kinds of food and drinks are available including
+        locally made soda from community members. Games and other activities are available in the city park located just
+        east of Main Street. Come join the festivities and see the geyser blow every hour!
+      </p>
+    </article>
+  </main>
+  <footer>
+    <section>
+      <h4>Contact Information</h4>
+      <p>Rozlyn Vaughn</p>
+      <address>
+        <a href="https://www.google.com/maps/place/122+N+State+St,+Preston,+ID+83263/@42.0982864,-111.8755277,515m/data=!3m1!1e3!4m5!3m4!1s0x8754f7ec3fd44b75:0xa6697de0f851a52!8m2!3d42.0988475!4d-111.8760719"
+          rel="noopener" target="_blank">122 N. State St.
+          Preston, ID 83263
+        </a>
+      </address>
+      <p>(123) 456-7890</p>
+      <a href="mailto:vaughn@seinews.org">vaughn@seinews.org</a>
+    <div class="social">
+      <a href="https://twitter.com/" target="_blank">
+        <img src="https://rozlyntr.github.io/lesson4/images/twitter.png" alt="twitter logo"/>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <img src="https://rozlyntr.github.io/lesson4/images/instagram.png" alt="instgram logo"/>
+      </a>
+      <a href="https://www.facebook.com/" target="_blank">
+        <img src="https://rozlyntr.github.io/lesson4/images/facebook.png" alt="facebook logo"/>
+      </a>
+    </div>
+
+    </section>
+    <picture class="map">
+      <source media="(max-width: 510px)" srcset="https://rozlyntr.github.io/lesson4/images/map.png">
+      <source media="(max-width: 939px)" srcset="https://rozlyntr.github.io/lesson4/images/map.png">
+      <source media="(min-width: 940px)" srcset="https://rozlyntr.github.io/lesson4/images/map.png">
+      <img src="images/map-org.webp"
+        alt="A map displaying the location of Preston, Soda Springs and Fish Haven in southeast Idaho.">
+    </picture>
+    <div class="attribution">
+      <p>Weather data obtained from <a href="https://openweathermap.org/">openweather.org.</a></p>
+      <p>&copy; <span id="copyrightyr"></span> | <span id="currentdate"></span></p>
+    </div>
+  </footer>
+</body>
+
+</html>
