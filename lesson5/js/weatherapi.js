@@ -1,16 +1,16 @@
 let currweatherURL = "";
 let forecastURL = "";
 let currenttown ='';
-if (window.location.href === 'https://rozlyntr.github.io/lesson-06/sodasprings.html') {
-  currweatherURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&appid=7bac549adf517ccf2fead6b8f3b137c6";
-  forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=7bac549adf517ccf2fead6b8f3b137c6";
-  currenttown = 'Soda Springs';
-}
-
-else if (window.location.href === 'https://rozlyntr.github.io/lesson5/preston-10.html') {
+if (window.location.href === 'https://rozlyntr.github.io/lesson5/preston-10.html') {
   currweatherURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=7bac549adf517ccf2fead6b8f3b137c6";
   forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=7bac549adf517ccf2fead6b8f3b137c6";
   currenttown = 'Preston';
+}
+
+else if (window.location.href === 'https://rozlyntr.github.io/lesson-06/sodasprings.html') {
+  currweatherURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&appid=7bac549adf517ccf2fead6b8f3b137c6";
+  forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=7bac549adf517ccf2fead6b8f3b137c6";
+  currenttown = 'Soda Springs';
 }
 
 else {
