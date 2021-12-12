@@ -1,0 +1,372 @@
+@media screen and (min-width: 768px) {
+
+    body {
+        background-image: linear-gradient(darkturquoise, rgb(3, 184, 184), rgb(0, 46, 59), rgb(0, 46, 59), black);
+    }
+
+    header {
+        height: 430px;
+        max-width: 1200px;
+    }
+
+    #logo {
+        width: 280px;
+        margin: -10px auto auto auto;
+    }
+
+    h1 {
+        font-size: 75px;
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+
+    #hours {
+        margin: 18px auto auto auto;
+    }
+
+    #motto {
+        margin-top: 15px;
+        font-size: 21px;
+        padding: 0 5px;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 100%;
+    }
+
+    .navigation a {
+        font-size: 18px;
+        text-align: center;
+        font-weight: unset;
+        letter-spacing: unset;
+        border-top: none;
+        border-right: rgb(255, 187, 0) dotted 5px;
+    }
+
+    .navigation a:hover {
+        color: turquoise;
+        text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px;
+        background-color: rgb(252, 200, 122);
+        box-shadow: #ff7800 0px 0px 50px;
+        transition: 1s;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    #heroimg img {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    #grid-box {
+        margin-top: 0;
+        width: 90%;
+        display: grid;
+        grid-template-areas:
+            'box1 box2'
+            'box3 box3';
+    }
+
+    #box2,
+    #box1 {
+        height: 400px;
+        margin: 0;
+        padding-bottom: 40px;
+    }
+
+    #box3 p {
+        font-size: 18px;
+    }
+
+    #photo-grid-box {
+        width: 90%;
+        margin: 35px auto auto auto;
+        display: grid;
+        grid-template-areas:
+            'photo1 photo2 photo3'
+            'photo4 photo5 photo6';
+    }
+
+    #photo1 img,
+    #photo2 img,
+    #photo3 img,
+    #photo4 img,
+    #photo5 img,
+    #photo6 img {
+        border: dimgray solid 2px;
+        width: 100%;
+    }
+
+    #photo4 img,
+    #photo5 img,
+    #photo6 img {
+        border-top: none;
+    }
+
+    #just-map img {
+        display: none;
+    }
+
+    #just-map-contact img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 94%;
+        box-shadow: darkturquoise 0 0 50px;
+    }
+
+    #wide.move img {
+        margin-bottom: -20px;
+        margin-top: -20px;
+    }
+
+    #photo-grid-box.contact-cars {
+        margin-bottom: 60px;
+    }
+
+    #just-map-contact img {
+        display: none;
+    }
+
+    #contact-map img {
+        display: none;
+    }
+
+    #wide.contact-large-map {
+        margin-top: -20px;
+    }
+
+    #wide.move-down {
+        margin-top: -18px;
+    }
+
+    #foot1,
+    #foot2,
+    #foot3,
+    #foot4,
+    #foot5 {
+        margin: 5px;
+    }
+
+    #contact-grid-box {
+        width: 98%;
+        display: grid;
+        margin: 15px 7px;
+        grid-template-areas:
+            'foot4 foot5'
+            'foot1 foot2'
+            'foot3 foot3';
+    }
+    #contact-grid-box.contact {
+        width: 98%;
+        display: grid;
+        margin: 15px 7px;
+        grid-template-areas:
+            'foot1 foot2'
+            'foot4 foot5'
+            'foot3 foot3';
+    }
+
+    #wide img {
+        display: block;
+        width: 100%;
+    }
+
+    #wide.contact-map {
+        margin: -20px auto 0 auto;
+    }
+
+    #tour1,
+    #tour2,
+    #tour3,
+    #tour4,
+    #tour5,
+    #tour6,
+    #tour7,
+    #tour8,
+    #tour9,
+    #tour10,
+    #tour11,
+    #tour12,
+    #tour13,
+    #tour14,
+    #tour15,
+    #tour16,
+    #tour17,
+    #tour18 {
+        border: black solid .5px;
+        border-radius: 10px;
+        margin: 15px;
+        background-color: white;
+        padding-top: 10px;
+    }
+
+    #tours-grid-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 20px;
+        color: black;
+    }
+
+    #tours-grid-box img,
+    figure {
+        margin-bottom: 20px;
+    }
+
+    #tours-grid-box img:hover,
+    #article img:hover {
+        box-shadow: dimgray 0 0 30px;
+    }
+
+    #article img {
+        float: right;
+        margin: 30px 0px 0 30px;
+    }
+
+    #article.intro img {
+        margin: auto auto 10px 15px;
+    }
+
+    #tours-main {
+        margin-bottom: -10px;
+    }
+
+    #information {
+        width: 60%;
+        padding: 20px;
+
+    }
+
+    #information li {
+        margin-left: 0px;
+        line-height: 2;
+    }
+
+    #list li {
+        padding: 0;
+        font-size: 15px;
+    }
+
+    #list-grid-box {
+        display: grid;
+        grid-template-areas:
+            'left right';
+    }
+
+
+    #right {
+        margin: auto;
+        grid-area: right;
+    }
+
+    #left {
+        grid-area: left;
+    }
+
+    #photo-grid-box.wider {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #form {
+        margin: -40px auto 20px auto;
+    }
+    #form-grid-box{
+        display: grid;
+        grid-template-areas: 
+        'field1 field2'
+        'field3 field3';
+        max-width: 100%;
+
+    }
+    #field1{
+        grid-area: field1;
+        margin: 30px 10px 10px 30px;
+        width: 60%;
+    }
+    #field1 label{
+        max-width: 280px;
+    }
+    #field2{
+        grid-area: field2;
+        margin: 30px -30px 10px -135px;
+        width: 100%;
+    }
+    #field2 label{
+        min-width: 310px;
+    }
+    #field3{
+        grid-area: field3;
+        margin: 10px 30px;
+        padding: 0 140px 20px 180px;
+    }
+   .space{
+        max-width: 280px;
+    }
+
+    #form h2 {
+        margin-top: -60px;
+    }
+    form input.submitBtn{
+        display: block;
+        width: 65%;
+        margin: auto auto 10px 210px;
+    }
+    form label.top input,
+form label.top select,
+form label.top select.option {
+    -webkit-appearance: none;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    max-width: 85%;
+    background-color: white;
+}
+
+    #contact-footer.reservations {
+        margin-top: 10px;
+    }
+
+    #reservations-body{
+        background: linear-gradient(white, white, black, black);
+    }
+
+
+    #thanks-header {
+        height: 530px;
+    }
+
+    #refund {
+        padding: 10px 100px;
+        margin-top: 10px;
+    }
+
+    #motto.confirmation {
+        margin: -20px 150px auto 150px;
+        line-height: 1.5;
+    }
+
+    #contactBtn{
+        width: 32%;
+        margin: -59px auto 26px auto;
+    }
+    #review a{
+        max-width: 30%;
+        padding: 10px 25px;
+        margin: -15px auto -20px auto;
+    }
+    #finePrint{
+        padding: 0px 50px 0 0;
+    }
+
+}
