@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scoots Home Page | Rozlyn Vaughn</title>
+    <meta name="description"
+        content="Final Project: Scoots for Rozlyn Vaughn in WDD 230: Web Frontend Development, Brigham Young University - Idaho" />
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/scooter.ico">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="https://rozlyntr.github.io/scoots/images/scooterlogo.png"
+            alt="Scooter Logo Placeholder (while working on my own design)">
+        <!--free image found at: https://www.vecteezy.com/vector-art/2954448-scooter-logo-template-transportation-design-vector-icon-illustration-->
+        <h1 id="top-h1">Scoots</h1>
+        <h3 id="motto">"★ Life's a Hoot on a Scoot! ★"</h3>
+        <h4 id="hours">Open 7:00 am to 9:00 pm 7 days a week!</h4>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li class="ham">
+                <div class="container" id="menu">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </li>
+            <li><a href="https://janettekaymak.github.io/jet-scoots/index.html" class="active">Home</a></li>
+            <li><a href="https://janettekaymak.github.io/jet-scoots/rentals.html">Rentals</a></li>
+            <li><a href="https://janettekaymak.github.io/jet-scoots/reservations.html">Reservations</a></li>
+            <li><a href="https://janettekaymak.github.io/jet-scoots/tours.html">Tours</a></li>
+            <li><a href="https://janettekaymak.github.io/jet-scoots/contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+    <main>
+        <div id="photo-grid-box">
+            <div id="photo1"><img src="images/honda-metro.jpg" alt="scooter"></div>
+            <div id="photo2"><img src="images/honda-dio.jpg" alt="scooter or jeep"></div>
+            <div id="photo3"><img src="images/honda-pcx.jpg" alt="scooter"></div>
+            <div id="photo4"><img src="images/honda-Pioneer.jpg" alt="jeep"></div>
+            <div id="photo5"><img src="images/4door.jpg" alt="jeep"></div>
+            <div id="photo6"><img src="images/2door.jpg" alt="jeep"></div>
+        </div>
+        <div id="grid-box">
+            <div id="box1" class="forecast">
+                <span id="source"></span> &nbsp; <img src="#" alt="#" id="icon">
+                <h2>Just For You!</h2>
+                <h3>The Current<span id="day0" class="hidden"></span> weather</h3>
+                <h4>in Cozumel is:</h4>
+                <p>Conditions: <span id="conditions"></span></p>
+                <p>Temp: <span id="current-temp"></span> &#8457;</p>
+                <p>High: <span id="hi"></span> &#8457;<span class="hidden" id="lo"></span></p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Feels Like: <span id="feelsLike"></span>&#8457;</p>
+                <p>Wind Speed: <span id="windspeed"></span> mph</p><br>
+            </div>
+            <div class="hidden">
+                <span id="imagesrc1"></span> &nbsp; <img src="#" alt="#" id="icon1">
+                <h2>Just For You!</h2>
+                <h3>Today's<span id="day1" class="hidden"></span> weather</h3>
+                <h4>in Cozumel is:</h4>
+                <p>Conditions: <span id="conditions1"></span></p>
+                <p>Temp: <span id="current-temp1"></span> &#8457;</p>
+                <p>High: <span id="hi1"></span> &#8457;<span class="hidden" id="lo1"></span></p>
+                <p>Humidity: <span id="humidity1"></span>%</p>
+                <p>Feels Like: <span id="feelsLike1"></span>&#8457;</p>
+                <p>Wind Speed: <span id="windspeed1"></span> mph</p><br>
+            </div>
+            <div id="box2" class="forecast">
+                <span id="imagesrc5"></span> &nbsp; <img src="#" alt="#" id="icon5">
+                <h2>This coming</h2>
+                <h3><span id="day5"></span> weather</h3>
+                <h4>in Cozumel is:</h4>
+                <p>Conditions: <span id="conditions5"></span></p>
+                <p>Temp: <span id="current-temp5"></span>&#8457;</p>
+                <p>High: <span id="hi5"></span>&#8457;</p>
+                <p><span class="hidden" id="lo5"></span></p>
+                <p>Humidity: <span id="humidity5"></span>%</p>
+                <p>Feels Like: <span id="feelsLike5"></span>&#8457;</p>
+                <p>Wind Speed: <span id="windspeed5"></span> mph</p><br>
+            </div>
+            <div class="hidden">
+                <h3><span id="day2"></span>Weather:</h3>
+                <p>Conditions: <span id="conditions2"></span></p>
+                <p>Temp: <span id="current-temp2"></span>&#8457;</p>
+                <p>High / Low: <span id="hi2"></span>&#8457; / <span id="lo2"></span>&#8457;</p>
+                <p>Feels Like: <span id="feelsLike2"></span>&#8457;</p>
+                <p>Humidity: <span id="humidity2"></span>%</p>
+                <p>Wind Speed: <span id="windspeed2"></span> mph</p>
+                <span id="imagesrc2"></span> &nbsp; <img src="#" alt="#" id="icon2">
+            </div>
+            <div class="hidden">
+                <h3><span id="day3"></span>Weather:</h3>
+                <p>Conditions: <span id="conditions3"></span></p>
+                <p>Temp: <span id="current-temp3"></span>&#8457;</p>
+                <p>High / Low: <span id="hi3"></span>&#8457; / <span id="lo3"></span>&#8457;</p>
+                <p>Feels Like: <span id="feelsLike3"></span>&#8457;</p>
+                <p>Humidity: <span id="humidity3"></span>%</p>
+                <p>Wind Speed: <span id="windspeed3"></span> mph</p>
+                <span id="imagesrc3"></span> &nbsp; <img src="#" alt="#" id="icon3">
+            </div>
+            <div class="hidden">
+                <h3><span id="day4"></span>Weather:</h3>
+                <p>Conditions: <span id="conditions4"></span></p>
+                <p>Temp: <span id="current-temp4"></span>&#8457;</p>
+                <p>High / Low: <span id="hi4"></span>&#8457; / <span id="lo4"></span>&#8457;</p>
+                <p>Feels Like: <span id="feelsLike4"></span>&#8457;</p>
+                <p>Humidity: <span id="humidity4"></span>%</p>
+                <p>Wind Speed: <span id="windspeed4"></span> mph</p>
+                <span id="imagesrc4"></span> &nbsp; <img src="#" alt="#" id="icon4">
+            </div>
+            <div id="box3">
+                <h3>This is How We Roll</h3>
+                <p><i>Picture it now... you're riding one of our fun and affordable scooters with the sea breeze blowing through your hair. 
+                  As you take in stunning vistas of the turquoise ocean, pristine sandy beaches, lush foilage, and exotic wildlife, 
+                  your favorite person is seated right behind you, holding on tight!</i>
+                    <br><br> Come to Cozumel Island, off the coast of Mexico in the western Caribbean Sea! Scoots has everything you need to get around.
+                   <br><br> Found in two convenient locations: Playa del Carmen - <a href="https://playadelcarmen.com/"><span>Cozumel Ferry Dock</span></a> 
+                    and the <a href="https://www.puertamaya.com/"><span>Terminal Puerta Maya</span></a>. 
+                    <br><br>What do we offer? There's lots of options to choose from! You can rent a Honda Metro, Honda Dio, or Honda PCX scooter. 
+                    For a bigger group, rent a Honda Pioneer or a 2-4 door Jeep Wrangler. Go to <a
+                        href="https://rozlyntr.github.io/scoots/rentals.html"><span>Rentals to learn more.</span></a>.
+                    OR go to <a href="https://rozlyntr.github.io/scoots/reservations.html"><span>Reservations</span> to book your sweet ride today!</a></p>
+            </div>
+        </div>
+        <div class="hero">
+            <picture id="heroimg">
+                <source srcset="https://rozlyntr.github.io/scoots/images/ajay-dongan500.jpg" media="(max-width: 767px)">
+                <source srcset="https://rozlyntr.github.io/scoots/images/ajay-dongan700.jpg" media="(min-width: 768px) and 
+                (max-width: 1187px)">
+                <source srcset="https://rozlyntr.github.io/scoots/images/ajay-dongan900.jpg" media="(min-width: 1188px)">
+                <img src="https://rozlyntr.github.io/scoots/images/ajay-dongan900.jpg" alt="man and woman riding scooter in tropical setting"
+                    class="border-shadow">
+                <!--Photo by Ajay Donga from Pexels-->
+            </picture>
+        </div>
+        <div>
+            <figure id="just-map-contact" class="move">
+                <img class="gallery" src="https://rozlyntr.github.io/scoots/images/placeholder.jpg" data-src="https://rozlyntr.github.io/scoots/images/Cozumel-Map700.jpg"
+                    alt="cozumel map">
+            </figure>
+        </div>
+        <div>
+            <figure id="wide" class="move">
+                <img class="gallery" src="https://rozlyntr.github.io/scoots/images/placeholder.jpg" data-src="https://rozlyntr.github.io/scoots/images/large-map.jpg"
+                    alt="map of cozumel surrounded by silhouettes of palms and a sunset">
+            </figure>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div>
+            <br><a id="google1" href="https://www.google.com/maps/search/cozumel">View Cozumel Google Maps</a>
+        </div>
+        <p>
+            &#169; 2021 | Rozlyn Vaughn | Rexburg, Idaho <a href="https://www.behance.net/rozlynvaughn"></a> 
+          <br>User Experience & Graphic Designer <br>
+            Last updated: <span id="date"></span>
+            <script src="js/lastModified.js"></script><br>
+            Weather by <a href="https://openweathermap.org/city/3530103">OpenWeatherMaps</a>
+        </p>
+    </footer>
+    <script src="js/toggleMenu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontLoad.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/lazyLoad.js"></script>
+</body>
+
+</html>
