@@ -1,5 +1,5 @@
 header {
-    background: url("https://janettekaymak.github.io/jet-scoots/images/cris-tagupa-unsplash2.jpg");
+    background: url("https://rozlyntr.github.io/scoots/images/cozmuzel-beach.jpeg");
     background-size: cover;
     background-position: center center;
     max-width: 800px;
@@ -14,29 +14,23 @@ header {
 
 h1 {
     margin: -10px auto 40px auto;
-    font-family: 'Fontdiner Swanky', cursive, fantasy;
+    font-family: url("https://rozlyntr.github.io/scoots/fonts/ClipperPersonalUse-Bg13.ttf");
     font-size: 42px;
-    text-align: center;
-    color: #fa8722;
-    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px,
-        black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px,
-        black 0 0 8px, black 0 0 9px, black 0 0 10px;
+    text-align: left;
+    color: black;
 }
 
 #motto {
-    color: rgb(248, 228, 112);
-    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px,
-        black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px,
-        black 0 0 8px;
-    text-align: center;
-    font-family: 'Fontdiner Swanky', cursive, fantasy;
+    color: black;
+    text-align: left;
+    font-family: url("https://rozlyntr.github.io/scoots/fonts/OstrichSans-Black.otf");
     font-size: 22px;
     margin-top: 30px;
     padding: 0 15px;
 }
 
 #hours {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: url("https://rozlyntr.github.io/scoots/fonts/OstrichSans-Black.otf");
     text-align: center;
     margin: -30px auto -10px auto;
 }
@@ -45,12 +39,12 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: Fontdiner Swanky;
+    font-family: url("https://rozlyntr.github.io/scoots/fonts/OstrichSans-Black.otf");
     text-align: center;
 }
 
 p {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: url("https://rozlyntr.github.io/scoots/fonts/OstrichSans-Black.otf");
 }
 
 #tours-main {
@@ -66,12 +60,12 @@ nav {
 .navigation {
     list-style: none;
     padding: 0;
-    font-family: 'Oswald', 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: url("https://rozlyntr.github.io/scoots/fonts/OstrichSans-Black.otf");
     font-size: 19px;
     font-weight: 700;
-    border-top: rgb(255, 187, 0) dotted 5px;
-    border-left: rgb(255, 187, 0) dotted 5px;
-    border-bottom: rgb(255, 187, 0) dotted 5px;
+    border-top: #84D9D9 dotted 5px;
+    border-left: #84D9D9 dotted 5px;
+    border-bottom: #84D9D9 dotted 5px;
 }
 
 .navigation li:first-child {
@@ -125,13 +119,13 @@ nav {
     text-align: left;
     text-decoration: none;
     font-weight: lighter;
-    color: black;
+    color: ##006B9F;
     letter-spacing: .1em;
     border-top: rgb(255, 187, 0) dotted 5px;
 }
 
 .active {
-    background-color: rgb(252, 200, 122);
+    background-color: white;
 }
 
 .ham a {
@@ -171,29 +165,26 @@ added to the end of the class list like this in HTML.
 }
 
 .forecast {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: url("https://rozlyntr.github.io/scoots/fonts/OstrichSans-Black.otf");
     padding: 0 30px;
     text-align: center;
 }
 
 #box2 {
     grid-area: box2;
-    background-color: rgb(136, 249, 253);
-    border: #fa8722 dashed 5px;
+    background-color: #84D9D9;
 
 }
 
 #box1 {
     grid-area: box1;
-    background-color: rgb(185, 250, 250);
-    border: darkturquoise dashed 5px;
+    background-color: #84D9D9;
     margin-top: 5px;
 }
 
 #box3 {
     grid-area: box3;
-    background-color: navajowhite;
-    border: rgb(255, 187, 0) dotted 7px;
+    background-color: white;
     padding: 0 20px;
 }
 
@@ -201,34 +192,34 @@ added to the end of the class list like this in HTML.
 #box1 h3,
 #box1 h4,
 #box2 h4 {
-    font-family: "Fontdiner Swanky", cursive, fantasy;
+    font-family: url("https://rozlyntr.github.io/scoots/fonts/OstrichSans-Black.otf");
     text-align: center;
     font-size: 91%;
 }
 
 #box3 h3 {
-    font-family: "Fontdiner Swanky", cursive, fantasy;
+    font-family: url("https://rozlyntr.github.io/scoots/fonts/OstrichSans-Black.otf");
     text-align: center;
     font-size: 22px;
 }
 
 #box2 h2,
 #box1 h2 {
-    font-family: "Fontdiner Swanky", cursive, fantasy;
+    font-family: url("https://rozlyntr.github.io/scoots/fonts/OstrichSans-Black.otf");
     text-align: center;
     font-size: 19px;
     margin-top: 4px;
 }
 
 #box3 p {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: url("https://rozlyntr.github.io/scoots/fonts/OstrichSans-Black.otf");
     font-size: 16px;
     line-height: 1.5em;
     text-align: justify;
 }
 
 .today {
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-family: url("https://rozlyntr.github.io/scoots/fonts/OstrichSans-Black.otf");
     font-size: 12px;
     font-weight: bolder;
 }
@@ -247,7 +238,7 @@ added to the end of the class list like this in HTML.
 }
 
 .fontdiner {
-    font-family: Poppins;
+    font-family: url("https://rozlyntr.github.io/scoots/fonts/OstrichSans-Black.otf");
     font-size: 24px;
     color: darkturquoise;
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px;
@@ -324,7 +315,7 @@ their own photos*/
     display: block;
     margin: auto;
     width: 250px;
-    background-color: navajowhite;
+    background-color: white;
     font-family: sans-serif, Arial, Helvetica;
     font-weight: bolder;
     text-align: center;
@@ -339,8 +330,8 @@ their own photos*/
 }
 
 .main-footer p {
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    color: navajowhite;
+    font-family: url("https://rozlyntr.github.io/scoots/fonts/OstrichSans-Black.otf");
+    color: white;
     text-align: center;
     padding: 50px 5px 80px 5px;
     line-height: 1.5;
