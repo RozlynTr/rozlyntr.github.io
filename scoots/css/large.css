@@ -1,0 +1,256 @@
+/* Media Query for large+ views */
+
+@media screen and (min-width: 1188px) {
+
+    header {
+        height: 480px;
+        max-width: 2050px;
+    }
+    #tours-header.res{
+        height: 545px;
+    }
+
+    #logo {
+        width: 320px;
+    }
+
+    header h1 {
+        margin-top: -20px;
+        font-size: 85px;
+    }
+
+    #hours {
+        font-size: 18px;
+        margin: 18px auto auto auto;
+    }
+
+    #motto {
+        font-size: 28px;
+        margin-top: 13px;
+    }
+
+    nav {
+        margin-top: -18px;
+    }
+    #res-nav{
+        margin-top: -20px;
+    }
+
+    .navigation a {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    #heroimg img {
+        width: 80%;
+    }
+
+    #grid-box {
+        width: 80%;
+        grid-template-areas:
+            'box1 box3 box3 box2'
+    }
+
+    #box1,
+    #box2 {
+        height: auto;
+        font-size: 115%;
+    }
+
+    #photo-grid-box {
+        width: 99.7%;
+        margin: -19px -2px auto 0;
+        display: grid;
+        grid-template-areas:
+            'photo1 photo2 photo3 photo4 photo5 photo6';
+    }
+
+    #photo1 img,
+    #photo2 img,
+    #photo3 img,
+    #photo4 img,
+    #photo5 img,
+    #photo6 img {
+        border: dimgray solid 2px;
+        width: 100%;
+    }
+
+    table {
+        margin: 60px auto 75px auto;
+        width: 66%;
+        box-shadow: black 0 0 20px;
+    }
+
+    #photo-grid-box.contact-cars{
+        width: 100%;
+        margin: -19px auto 30px auto;
+    }
+
+    #social-icon-box {
+        max-width: 50%;
+    }
+
+    #wide {
+        margin-top: -20px;
+    }
+
+    #wide.move-down {
+        margin-top: -18px;
+    }
+
+    #article img{
+        margin: 30px 0px 5px 20px;
+    }
+
+    #article.intro img{
+        margin: 5px auto 10px 20px;
+    }
+
+    #article {
+        padding: 20px 70px 30px 70px;
+        max-width: 75%;
+        margin-top: 40px;
+        font-size: 18px;
+        border-radius: 15px;
+    }
+
+    #article h2 {
+        font-size: 35px;
+    }
+
+    #tours-grid-box {
+        margin: auto;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 87%;
+    }
+
+    #tour1,
+    #tour2,
+    #tour3,
+    #tour4,
+    #tour5,
+    #tour6,
+    #tour7,
+    #tour8,
+    #tour9,
+    #tour10,
+    #tour11,
+    #tour12,
+    #tour13,
+    #tour14,
+    #tour15,
+    #tour16,
+    #tour17,
+    #tour18  {
+        padding: 0 20px;
+    }
+
+    #tours-grid-box img {
+        width: 100%;
+    }
+
+    #information {
+        width: 38%;
+        margin: -100px auto 20px auto;
+        padding: 20px;
+
+    }
+
+    #information li {
+        margin-left: 0px;
+        line-height: 2;
+    }
+
+    #list {
+        padding: 15px 100px 40px 100px
+    }
+    #list.rentals{
+        margin-top: -15px;
+    }
+
+
+    #list li {
+        font-size: 18px;
+    }
+
+
+    #thanks-header {
+        height: 550px;
+    }
+
+    #refund {
+        margin: 10px 150px auto 150px;
+        font-size: 20px;
+    }
+
+    #motto.confirmation {
+        margin-top: 10px;
+    }
+
+    #foot1,
+    #foot2,
+    #foot3,
+    #foot4,
+    #foot5 {
+        margin: 20px;
+    }
+
+    #contact-grid-box {
+        width: 90%;
+        display: grid;
+        margin: 20px auto auto auto;
+        grid-template-areas:
+            'foot4 foot4 foot4 foot5 foot5 foot5'
+            'foot1 foot1 foot2 foot2 foot3 foot3';
+    }
+    #contact-grid-box.contact {
+        width: 90%;
+        display: grid;
+        margin: 10px auto auto auto;
+        grid-template-areas:
+            'foot1 foot1 foot2 foot2 foot3 foot3'
+            'foot4 foot4 foot4 foot5 foot5 foot5';
+    }
+    #contact-footer.contact{
+        margin-top: -5px;
+    }
+
+    #form{
+        padding: 0 165px; 
+        margin: 60px auto;
+    }
+    #photo-grid-box2{
+        width: 28%;
+        margin: auto;
+    }
+    form input.submitBtn {
+        margin: 10px auto 20px 210px;
+        width: 90%;
+    }
+    #contact-footer.reservations {
+        margin-top: -40px;
+    }
+
+    #contactBtn{
+        width: 20%;
+        margin: -28px auto -38px auto;
+    }
+    #review a{
+        max-width: 20%;
+        margin: -45px auto 35px auto;
+    }
+    #finePrint{
+        padding: 0px 100px 0 0;
+    }
+    #field1{
+        width: 87%;
+        margin: 20px auto 10px 30px;
+    }
+    #field2{
+        width: 87%;
+        margin: 20px auto 10px 0;
+    }
+
+}
