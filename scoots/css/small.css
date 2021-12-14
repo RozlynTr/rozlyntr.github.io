@@ -7,9 +7,10 @@ header {
 }
 
 #logo {
-    width: 260px;
+    width: px;
     display: block;
     margin: -10px auto auto auto;
+    margin-top: 10px;
 }
 
 h1 {
@@ -627,11 +628,6 @@ tfoot td {
 #tours-grid-box img, figure {
     display: block;
     margin: auto auto 50px auto;
-    border-radius: 8px;
-}
-
-#tours-grid-box img{
-    border: solid 1px;
 }
 
 #tours-grid-box {
