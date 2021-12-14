@@ -11,12 +11,15 @@
 /* header style */
 
 header {
-  background-color: #2c262c;
-  color: #f4796b;
-  padding: 5px 0;
+  font-size: 40px;
+  background-color: #FEEA8B;
+  color: white;
+  padding: 2px 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "brush Script MT", sans-serif;
+
 }
 
 header img {
@@ -27,7 +30,7 @@ header img {
 /* Navegation Bar */
 nav {
   margin: 0 auto;
-  background-color: #f44e3f;
+  background-color: #84D9D9;
 }
 
 nav ul {
@@ -56,21 +59,21 @@ nav ul {
   display: block;
   padding: 0.75rem;
   text-decoration: none;
-  color: #2c262c;
+  color: white;
   font-weight: 700;
   text-align: center;
 }
 
 .navigation a:hover {
-  color: #2c262c;
-  background-color: #f40000;
+  color: #C5CB43;
+  background-color: #006B9F;
 }
 
 .navigation li a.active {
-  background-color: #f40000;
+  background-color: #006B9F;
 }
 .active, li :hover {
-  background-color: #f40000;
+  background-color: #006B9F;
 }
 
 /* Main Style */
@@ -82,10 +85,10 @@ nav ul {
 
 .callaction {
   display: block;
-  background-color: #f4796b;
+  background-color: #84D9D9;
   border-style: none;
   padding: 5px;
-  font-family: "Roboto", sans-serif;
+  font-family: "helvetica", sans-serif;
   text-align: center;
 }
 
@@ -108,7 +111,7 @@ nav ul {
 
 .content div:hover {
   box-shadow: 0 4px 20px 9px rgba(0, 0, 0, 0.2);
-  background-color: #f44e3f;
+  background-color: #006B9F;
 }
 
 .content div img {
@@ -221,7 +224,7 @@ textarea:focus {
 
 input:invalid {
 	background-color: #fdd;
-	color: rgb(255, 0, 0);
+	color: #006B9F;
 }
 input:valid {
 	background-color: #dfd;
@@ -287,7 +290,7 @@ info_articles {
 
 /* Footer style */
 footer {
-  background-color: #2c262c;
+  background-color: #006B9F;
   padding: 20px 0;
   display: flex;
   align-items: center;
