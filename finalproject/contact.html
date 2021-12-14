@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Scoot - Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="./css/mainstyle.css">
+  <link rel="stylesheet" href="./css/mainstyle-large.css">
+  <link rel="stylesheet" href="./css/mainstyle-mediumn.css">
+
+  <!-- Javascript -->
+  <script src="js/mainjs.js"></script>
+  <script src="js/windchill.js"></script>
+</head>
+
+<body>
+
+  <div class="ShowHide" id="Bar">
+    <div id="right">
+      <button onclick="Hide(Bar);">Close</button>
+    </div>
+    <div id="left">
+
+    </div>
+  </div>
+
+  <header>
+    <figure>
+      <img src="./img/scooter-min.png" alt="Scooter Rent logo">
+    </figure>
+    <section class="headings">
+      <h1>Scoots</h1>
+      <div class="motto">Life's a Hoot on a Scoot</div>
+    </section>
+
+  </header>
+
+  <nav>
+    <ul class="navigation">
+      <li><a onclick="showMenu()" href="#">☰</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="rentals.html">Rentals</a></li>
+      <li><a href="reservations.html">Reservations</a></li>
+      <li><a href="tours.html">Tours</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <div class="grid-container">
+      <div class="Contact-Information">
+        <form action="#" method="get">
+          <fieldset>
+            <legend>Contact Us</legend>
+
+            <label for="fullname">Full Name:
+              <input type="text" id="fullname" name="full_name" required pattern="[a-zA-Z\s]{2,}" />
+            </label>
+
+            <label for="email">Email:
+              <input type="email" id="email" name="user_email" placeholder="example@domain.com" />
+            </label>
+
+            <label for="comments">Comment:
+              <textarea id="comments" name="comments"></textarea>
+            </label>
+
+            <input type="submit" name="submitbuttom">
+          </fieldset>
+        </form>
+      </div>
+      <div class="Information-and-Services">
+        <h2>General Information and Services</h2>
+        <ul>
+          <li>A $50 security deposit is required to confirm reservations.</li>
+          <li>A valid drivers license is required in hand at time of rental.</li>
+          <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+          <li>Fuel charge not included.</li>
+          <li>Unlimited mileage.</li>
+          <li>Liability insurance is free of charge.</li>
+          <li>Reservations rate requires 24 hour prior notification.</li>
+          <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+          <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+          <li>Rentals may be returned to either location.</li>
+        </ul>
+      </div>
+      <div class="General-Information">
+        <h2>About us</h2>
+        <p>
+        What are the best things to do in Cozumel, Mexico? Cozumel is a large island, and has many great activities and attractions to choose from!
+          A popular island, gets a large amount of cruise ship traffic, more than any other cruise port in the Caribbean. The Cozumel Port has millions 
+          of cruise ship passengers each year. The Port of Cozumel was rated #3 for the best cruise ports in the World. The island was also rated 
+          as one of the top safest places in the world to live or travel. </p>
+
+         As you may already know Isla Cozumel Mexico is famous for its magnificent coral reefs. This makes for the most amazing snorkel and diving 
+          experiences available in the entire Caribbean. Drift diving was basically created in Cozumel because of the perfect current that flows along 
+          the island. This allows divers and snorkelers to use very little energy to enjoy the reefs in Cozumel. The current that flows along the island 
+          also helps keep the corals healthy and clean, and adds to the crystal clear visibility Cozumel is famous for. Cozumel is also home to the most 
+          magnificent beaches in the Caribbean & Riviera Maya, and is one of the world's most beautiful treasures. </p>
+          
+          <p> <i> To Learn More Visit </i> <a href="http://cozumelcruiseexcursions.net/what-to-do-in-cozumel.html">
+                    Cozumel Cruise Excursions</a>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239247.59534736315!2d-87.08467916231376!3d20.45518241557221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e58330a673659%3A0x9cedf516c7d86e9a!2sSan%20Miguel%20de%20Cozumel%2C%20Q.R.%2C%20M%C3%A9xico!5e0!3m2!1ses-419!2sdo!4v1608004193816!5m2!1ses-419!2sdo"
+          width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p> &copy;
+      <script>currentYear(); wheaterData(20.51, -86.95);</script>
+      Getzels N. De Los Santos | Dominican Republic | <span id="currentdate"></span>
+    </p>
+    <div class="socialmedia">
+      <a href="https://www.facebook.com/getzels21/"><img class="socialmediaicon" src="img/facebook.png"
+          alt="facebook icon"></a>
+      <a href="https://www.youtube.com/user/Getzels1"><img class="socialmediaicon" src="img/youtube.png"
+          alt="youtube icon"></a>
+      <a href="https://twitter.com/Getzels21"><img class="socialmediaicon" src="img/twitter.png" alt="twitter icon"></a>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Roboto', 'sans-serif']
+      }
+    });
+  </script>
+</body>
+
+</html>
