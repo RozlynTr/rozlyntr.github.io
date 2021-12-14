@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Scoots</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="./css/mainstyle.css">
+  <link rel="stylesheet" href="./css/mainstyle-large.css">
+  <link rel="stylesheet" href="./css/mainstyle-mediumn.css">
+
+  <!-- Javascript -->
+  <script src="js/mainjs.js"></script>
+  <script src="js/windchill.js"></script>
+</head>
+
+<body>
+
+  <div class="ShowHide" id="Bar">
+    <div id="right">
+      <button onclick="Hide(Bar);">Close</button>
+    </div>
+    <div id="left">
+
+    </div>
+  </div>
+
+  <header>
+    <figure>
+      <img src="./img/scooter-min.png" alt="Scooter Rent logo">
+    </figure>
+    <section class="headings">
+      <h1>Scoots</h1>
+      <div class="motto">Life's a Hoot On A Scoot</div>
+    </section>
+
+  </header>
+
+  <nav>
+    <ul class="navigation">
+      <li><a onclick="showMenu()" href="#">☰</a></li>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="rentals.html">Rentals</a></li>
+      <li><a href="reservations.html">Reservations</a></li>
+      <li><a href="tours.html">Tours</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section class="homeimagencontainer">
+
+      <picture>
+        <img class="homeimagen" srcset="./img/vespa-small.png 200w,
+          ./img/vespa-medium.png 400w" sizes="(max-width: 200px) 200px,
+                                                                              (max-width: 400px) 200px,
+                                                                              1200px" src="./img/vespa-large.png"
+          alt="scooter rent home picture">
+      </picture>
+
+      <div class="callaction">
+        <h2>Let's Get Rolling!</h2>
+        <a href="rentals.html">Click here to rent</a>
+      </div>
+
+    </section>
+
+    <section class="content">
+
+      <div class="">
+        <h2>Do you want something to move?</h2>
+        <p>List of our Rent Products</p>
+
+        <ul class="services-ul component-large">
+          <li>Honda Metro Scooter</li>
+          <li>Honda Dio Scooter</li>
+          <li>Honda PCX150 Scoote</li>
+          <li>Honda Pioneer ATV</li>
+          <li>Jeep Wrangler - 4 door with a/c</li>
+          <li>Jeep Wrangler - 2 door</li>
+        </ul>
+      </div>
+
+      <div class="services-ul">
+        <div class="">
+          <img src="img/wheater.png" alt="Wheater Image of ">
+          <p><span id="cityname"></span></p>
+          <p>Current Condition: <span id="currently"></span></p>
+          <p>Current Temperature: <span id="temp"></span>℉</p>
+          <p>Humidity: <span id="humidity"></span></p>
+        </div>
+        <div class="dayforecast">
+
+        </div>
+      </div>
+
+      <div class="services-ul">
+        <picture>
+          <img src="img/Cozumel-scooter-rental-min.jpg" alt="">
+        </picture>
+
+        <p>Picture it now... you're riding one of our fun and affordable scooters with the sea breeze blowing through your hair. 
+          As you take in stunning vistas of the turquoise ocean, pristine sandy beaches, lush foilage, and exotic wildlife, your 
+          favorite person is seated right behind you, holding on tight! </p>
+
+          <p>Come to Cozumel Island, off the coast of Mexico in the western Caribbean Sea! Scoots has everything you need to get around. 
+            Found in two convenient locations: Playa del Carmen - Cozumel Ferry Dock and the Terminal Puerta Maya. </p>
+
+         <p> What do we offer? There's lots of options to choose from! You can rent a Honda Metro, Honda Dio, or Honda PCX scooter. 
+           For a bigger group, rent a Honda Pioneer or a 2-4 door Jeep Wrangler. Go to rentals to learn more OR check out our reservations 
+           page to book your sweet ride today!</p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p> &copy;
+      <script>currentYear(); wheaterData(20.51, -86.95);</script>
+      Rozlyn Vaughn | Rexburg, ID | BYU-Idaho <span id="currentdate"></span>
+    </p>
+    <div class="socialmedia">
+      <a href="https://www.facebook.com"><img class="socialmediaicon" src="img/facebook.png"
+          alt="facebook icon"></a>
+      <a href="https://www.youtube.com"><img class="socialmediaicon" src="img/youtube.png"
+          alt="youtube icon"></a>
+      <a href="https://twitter.com"><img class="socialmediaicon" src="img/twitter.png" alt="twitter icon"></a>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Roboto', 'sans-serif']
+      }
+    });
+  </script>
+</body>
+
+</html>
