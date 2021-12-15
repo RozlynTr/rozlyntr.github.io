@@ -1,7 +1,7 @@
 {
     "vehicles": [
       {
-        "met-name": "Honda Metro Scooter",
+        "name": "Honda Metro Scooter",
         "max_persons": "1",
         "res_half": "$20",
         "res_full": "$30",
@@ -9,7 +9,7 @@
         "in_full": "$35"
       },
       {
-        "dio-name": "Honda Dio Scooter",
+        "name": "Honda Dio Scooter",
         "max_persons": "2",
         "res_half": "$30",
         "res_full": "$40",
@@ -17,7 +17,7 @@
         "in_full": "$45"
       },
       {
-        "pcx-name": "Honda PCX150 Scooter",
+        "name": "Honda PCX150 Scooter",
         "max_persons": "2",
         "res_half": "$40",
         "res_full": "$50",
@@ -25,7 +25,7 @@
         "in_full": "$55"
       },
       {
-        "atv-name": "Honda Pioneer ATV",
+        "name": "Honda Pioneer ATV",
         "max_persons": "4",
         "res_half": "$50",
         "res_full": "$70",
@@ -33,7 +33,7 @@
         "in_full": "$80"
       },
       {
-        "4door-name": "Jeep Wrangler - 4 door with a/c",
+        "name": "Jeep Wrangler - 4 door with a/c",
         "max_persons": "5",
         "res_half": "$70",
         "res_full": "$100",
@@ -41,7 +41,7 @@
         "in_full": "$125"
       },
       {
-        "2door-name": "Jeep Wrangler - 2 door",
+        "name": "Jeep Wrangler - 2 door",
         "max_persons": "4",
         "res_half": "$60",
         "res_full": "$85",
