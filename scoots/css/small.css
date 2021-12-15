@@ -7,7 +7,7 @@ header {
 }
 
 #logo {
-    width: px;
+    width: 100px;
     display: block;
     margin: -10px auto auto auto;
     margin-top: 10px;
@@ -18,7 +18,7 @@ h1 {
     font-family: 'Brush Script MT', sans-serif;
     font-size: 80px;
     text-align: center;
-    color: black;
+    color: #ff7800;
 }
 
 #motto {
@@ -40,8 +40,13 @@ h1 {
     margin: -30px auto -10px auto;
 }
 
+h3 {
+    font-family:'Helvetica', sans-serif;
+    color: #ff7800
+}
+        
+
 h2,
-h3,
 h4,
 h5 {
     font-family: 'Helvetica', sans-serif;
@@ -126,7 +131,7 @@ nav {
     font-weight: lighter;
     color: #006B9F;
     letter-spacing: .1em;
-    border-top: #84D9D9) dotted 5px;
+    border-top: #84D9D9 dotted 5px;
 }
 
 .active {
@@ -286,7 +291,7 @@ a {
 #photo4 img,
 #photo5 img,
 #photo6 img {
-    border: dimgray solid 1px;
+    border: #ff7800 solid 1px;
     width: 99%;
     display: block;
     margin: auto;
@@ -356,7 +361,7 @@ footer {
 table,
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid #fa8722;
     border-collapse: collapse;
     text-align: center;
     padding: 3px;
@@ -372,7 +377,7 @@ table {
 }
 
 thead tr {
-    background-color: rgb(3, 216, 216);
+    background-color: #006B9F;
     color: white;
 }
 
@@ -385,7 +390,7 @@ tr {
 }
 
 tr:nth-child(odd) {
-    background-color: rgb(3, 216, 216);
+    background-color: #006B9F;
 }
 
 tr th {
@@ -569,8 +574,9 @@ tfoot td {
 #social-icon-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 60%;
+    max-width: 4px;
     margin: auto;
+    max-height: 4px;
 }
 
 #contact-footer #google1:hover,
@@ -646,7 +652,7 @@ tfoot td {
 /*------------------Reservations____________________*/
 
 #list {
-    background-color: rgb(202, 250, 242);
+    background-color: #fa8722;
     /*background-image: linear-gradient(rgb(3, 171, 173),
             darkturquoise, turquoise, rgb(40, 236, 236),
             rgb(168, 241, 229), white);*/
@@ -675,7 +681,7 @@ tfoot td {
 }
 
 #form{
-    background-color: rgb(189, 250, 239);
+    background-color: #fa8722;
     margin-bottom: -20px;
 }
 
@@ -702,7 +708,7 @@ form {
 
 form fieldset {
     margin: 1rem 0 3rem 0;
-    border: 1px solid cyan;
+    border: 3px solid cyan;
     padding: .5rem 2%;
     max-width: 100%;
     border-radius: 15px;
@@ -762,7 +768,7 @@ form label.top input:required:valid {
 form input.submitBtn, #contactBtn {
     font-family: Brush Script MT;
     font-size: 22px;
-    border: 1px solid black;
+    border: 1px solid white;
     background-color: cyan;
     border-radius: 5px;
     padding: .75rem 1.5rem;
