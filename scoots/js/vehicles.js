@@ -53,3 +53,5 @@ fetch(myURL)
     document.getElementById('in-atv-full').textContent = prices.vehicles[3].in_full;
     document.getElementById('in-4door-full').textContent = prices.vehicles[4].in_full;
     document.getElementById('in-2door-full').textContent = prices.vehicles[5].in_full;
+  
+});
