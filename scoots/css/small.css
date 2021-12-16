@@ -391,7 +391,7 @@ tr {
 }
 
 tr:nth-child(odd) {
-    background-color: cyan;
+    background-color: #fa8722;
 }
 
 tr th {
@@ -432,10 +432,11 @@ tfoot a{
 
 tfoot a:hover, #review a:hover {
     box-shadow: white 0 0 50px;
-    color: #fa8722;
+    color: cyan;
+    background-color: white;
 }
  #contactBtn a:hover{
-     background-color: #fa8722;
+     background-color: white;
      color: cyan;
      box-shadow: white 0 0 50px;
  }
